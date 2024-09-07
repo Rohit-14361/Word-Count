@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  padding-left: 50px;
+  margin-top: 60px;
+  height: 100%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main h1 {
+  width: 450px;
+  text-align: center;
+  background-color: rgb(21, 128, 155);
+
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Mont-Serat";
+}
+#textbox {
+  /* margin-top: 20px; */
+  height: 200px;
+  width: 100%;
+  border: 1px solid rgb(21, 128, 155);
+}
+
+p {
+  width: 100%;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  background-color: rgb(21, 128, 155);
+  text-align: center;
+}
